@@ -12,7 +12,7 @@ body {
   width: 100%;
   height: 100%;
   font-family: "Noto Serif SC", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  background: #d2ce9e;
+  background: #f5f4d1;
   color: #333;
   -webkit-font-smoothing: antialiased;
 }
@@ -68,7 +68,7 @@ article.post-view__article .article__content a {
   text-decoration: none;
 }
 article.post-view__article .article__content a:hover {
-  box-shadow: inset 0 -0.8em 0 #97fcca;
+  box-shadow: inset 0 -0.8em 0 #b3e3c9;
 }
 article.post-view__article .article__content blockquote {
   border-left: 2px solid #333;
@@ -97,9 +97,9 @@ article.post-view__article .article__content code:not(.hljs) {
   line-height: 2.2rem;
   color: #333;
   font-weight: bold;
-  border: 1px solid #97fcca;
-  background: #d2ce9e;
-  box-shadow: 0.2em 0.2em 0 0 #97fcca;
+  border: 1px solid #b3e3c9;
+  background: #f5f4d1;
+  box-shadow: 0.2em 0.2em 0 0 #b3e3c9;
   padding: 0.1em 0.4em;
   margin: 0 0.4em;
   vertical-align: bottom;
@@ -173,7 +173,7 @@ article.post-view__article .article__content .mjx-chtml {
 .footer {
   text-align: center;
   padding: 3rem 0;
-  background: #97fcca;
+  background: #b3e3c9;
   font-size: 1.4rem;
   line-height: 2.2rem;
 }
@@ -235,7 +235,7 @@ article.post-view__article .article__content .mjx-chtml {
   margin: 1rem 0;
   border-bottom: 1px solid #dedede;
   position: relative;
-  background: #d2ce9e;
+  background: #f5f4d1;
 }
 .posts-item--pintop::before {
   content: '';
@@ -262,7 +262,7 @@ article.post-view__article .article__content .mjx-chtml {
   background-position: center;
 }
 .posts-item:hover h2 a {
-  box-shadow: inset 0 -0.8em 0 #97fcca;
+  box-shadow: inset 0 -0.8em 0 #b3e3c9;
 }
 .posts-item__title {
   font-size: 5.2rem;
@@ -271,7 +271,7 @@ article.post-view__article .article__content .mjx-chtml {
 }
 .posts-item__title a {
   text-decoration: none;
-  box-shadow: inset 0 -0.3em 0 #97fcca;
+  box-shadow: inset 0 -0.3em 0 #b3e3c9;
   transition: box-shadow 0.5s cubic-bezier(0.71, 0, 0, 0.99);
 }
 .posts-item__title--image {
@@ -282,7 +282,7 @@ article.post-view__article .article__content .mjx-chtml {
   height: 20rem;
   margin: 2.4rem 0;
   object-fit: cover;
-  border: 6px solid #d2ce9e;
+  border: 6px solid #f5f4d1;
   box-shadow: 0 0 5px 0px rgba(0,0,0,0.15);
 }
 .posts-item__excerpt {
@@ -398,7 +398,7 @@ article.post-view__article .article__content .mjx-chtml {
 .sidebar__archives a:hover,
 .sidebar__categories a:hover,
 .sidebar__tags a:hover {
-  box-shadow: inset 0 -0.8em 0 #97fcca;
+  box-shadow: inset 0 -0.8em 0 #b3e3c9;
 }
 .sidebar__tags li {
   display: inline-block;
@@ -418,7 +418,7 @@ article.post-view__article .article__content .mjx-chtml {
     padding: 4rem;
     margin: 0;
     overflow-y: scroll;
-    background: #d2ce9e;
+    background: #f5f4d1;
     z-index: 2;
     transition: transform 0.7s cubic-bezier(0.7, 0, 0.15, 1);
     transform: translateY(-100%);
@@ -430,7 +430,7 @@ article.post-view__article .article__content .mjx-chtml {
     display: block;
     width: 3rem;
     height: 3rem;
-    background: #97fcca;
+    background: #b3e3c9;
     background-image: url("../../img/icon-menu-sprite.svg");
     background-position: center 100%;
     background-size: 100% auto;
@@ -458,7 +458,7 @@ article.post-view__article .article__content .mjx-chtml {
   text-decoration: none;
   padding: 1.5rem 5rem;
   border: 2px solid #333;
-  background: #97fcca;
+  background: #b3e3c9;
 }
 .paginator .prev,
 .paginator .next {
@@ -608,7 +608,7 @@ article.post-view__article .article__content .mjx-chtml {
 .darkmode-mask {
   width: 100vw;
   height: 100vh;
-  background-color: #f6dead;
+  background-color: #434a58;
   position: fixed;
   top: 0;
   left: 0;
@@ -629,7 +629,7 @@ article.post-view__article .article__content .mjx-chtml {
   position: sticky;
   top: 1rem;
   margin-bottom: 1.6rem;
-  background: #d2ce9e;
+  background: #f5f4d1;
 }
 .tocbot .toc__content {
   border-left: 1px solid #222;
@@ -646,7 +646,7 @@ article.post-view__article .article__content .mjx-chtml {
   left: 1rem;
 }
 .tocbot .is-active-link::before {
-  background: #97fcca;
+  background: #b3e3c9;
 }
 @media screen and (max-width: 780px) {
   .tocbot {
@@ -667,13 +667,13 @@ article.post-view__article .article__content .mjx-chtml {
   content: '';
   width: 100%;
   height: 100vh;
-  border: 1rem #97fcca solid;
+  border: 1rem #b3e3c9 solid;
   position: fixed;
   top: 0;
   left: 0;
 }
 ::selection {
-  color: #d2ce9e;
+  color: #f5f4d1;
   background: #333;
 }
 /* width */
@@ -695,6 +695,6 @@ article.post-view__article .article__content .mjx-chtml {
 }
 @media screen and (max-width: 1080px) {
   .mask-border::before {
-    border: 0.8rem #97fcca solid;
+    border: 0.8rem #b3e3c9 solid;
   }
 }
