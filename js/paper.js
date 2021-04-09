@@ -23,7 +23,7 @@ Darkmode.prototype.turnOnDarkmode = function() {
 
   // set <meta name="theme-color" content="xxxx">
   this.metaThemeColorCatch = this.metaThemeColor.content
-  this.metaThemeColor.setAttribute('content', '#333') // dark-mode tab color #333
+  this.metaThemeColor.setAttribute('content', '#202733') // dark-mode tab color #333
 }
 Darkmode.prototype.turnOffDarkmode = function() {
   this.mask.classList.remove('darkmode-mask--dark')
